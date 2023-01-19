@@ -1,13 +1,13 @@
 html {
     font-size: 10px;
     font-family: "Open Sans", sans-serif;
-    background-color:rgb(9, 172, 201); }
+    background-color:rgb(26, 238, 192); }
 
   body {
-    width: 600px;
+    width: 1200px;
     margin: 0 auto;
-    background-color: rgb(241, 208, 20);
-    padding: 0 20px 20px 20px;
+    background-color: rgb(10, 248, 101);
+    padding: 0 20px 100px 20px;
     border: 2px solid black; }
 
     /*línea*/ 
@@ -15,16 +15,27 @@ html {
     margin: 0;
     padding: 20px 0;
     color: white;
-    text-shadow: 3px 3px 1px black; }
+    text-shadow: 3px 3px 1px rgb(83, 82, 82); }
   
+  h6 {
+    margin: 10;
+    padding: 20px 0;
+    color: white;}
+
+  h2 {
+    margin: 0;
+    padding: 20px 0;
+    color: white;} 
+
+  h4 {
+    margin: 0;
+    padding: 20px 0px 30px 50px;
+    color: white;}
+
 /*párrafo*/
 
  p {
     color: white;
-    width: 500px;
-    border: 1px solid black;
     font-size: 16px;
-    line-height: 2;
     letter-spacing: 1px;
     font-family: Verdana;}
-    
