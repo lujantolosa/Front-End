@@ -1,4 +1,9 @@
-html {
+*{ margin:0;
+  padding: 0;
+  box-szing: border-box;
+  font-family: sans-serif }
+
+ html {
     font-size: 10px;
     background-color:rgb(255, 255, 255); }
 
@@ -8,9 +13,7 @@ html {
     background-color: rgb(255, 255, 255);
     padding: 0px 0px 0px 0px;}
 
-    /*línea text-shadow: 3px 3px 1px rgb(83, 82, 82);*/ 
-
-  .barra {
+ .barra {
     position:absolute;
     top: 30px; right: 65px;
     color:  rgb(25, 100, 129);
@@ -29,78 +32,48 @@ html {
     left: 90px ;
    }
 
-   #tec {
-    position:absolute;
-    top: 965px; right: 670px;
-    color:  rgb(0, 0, 0);
-    letter-spacing: 0px; }
 
-    #sec {
-    position:absolute;
-    top: 1050px; right: 690px;
-    color:  rgb(0, 0, 0);
-    letter-spacing: 0px; }
+.contenedor {
+  width:100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 5px;
+  border-top: 8px solid rgb(15, 177, 56);
+  border-bottom: 8px solid  rgb(15, 177, 56);
+}
 
-    #prim {
-    position:absolute;
-    top: 1110px; right: 890px;
-    color:  rgb(0, 0, 0);
-    letter-spacing: 0px; }
+.contenedor img{
+  float: left;
+  margin-right: 20px;
+}
 
-   #sp {
-    position:absolute;
-    top: 1232px; right: 1065px;
-    color:  rgb(0, 0, 0);
-    letter-spacing: 0px; }
+.tit {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
 
-   #rcp {
-    position:absolute;
-    top: 1320px; right: 980px;
-    color:  rgb(0, 0, 0);
-    letter-spacing: 0px; }
+.tit2 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
 
-   #cfl {
-    position:absolute;
-    top: 1400px; right: 690px;
-    color:  rgb(0, 0, 0);
-    letter-spacing: 0px; }
+.subt {
+  font-size: 15px;
+  font-weigth: 80px;
+}
 
-    #cisc {
-    position:absolute;
-    top: 1463px; right: 840px;
-    color:  rgb(0, 0, 0);
-    letter-spacing: 0px; }
-
-   #por {
-    position:absolute;
-    top: 1535px; right: 875px;
-    color:  rgb(0, 0, 0);
-    letter-spacing: 0px; }
-
-   ul {
-    color: black;
-    font-size: 12px;
-    letter-spacing: opx;
-    font-family: sans-serif;}
-
-  
-  h1 {
-    margin: 0;
-    padding: 20px 0px;
-    color: black
-     font-family: arial;;} 
-
+    /*línea text-shadow: 3px 3px 1px rgb(83, 82, 82);*/ 
 
 /*párrafo*/
 
  p {
     color: black;
-    font-size: 14px;
-    letter-spacing: 1px;
+    font-size: 12px;
+    letter-spacing: 0px;
     font-family: Verdana;}
 
  * { font-family: arial }
-
 
  /* .bann {
   width: 1250px;
