@@ -1,6 +1,6 @@
 *{ margin:0;
   padding: 0;
-  box-szing: border-box;
+  box-sizing: border-box;
   font-family: sans-serif }
 
  html {
@@ -60,7 +60,7 @@
 
 .subt {
   font-size: 15px;
-  font-weigth: 80px;
+  font-weight: 80px;
 }
 
     /*línea text-shadow: 3px 3px 1px rgb(83, 82, 82);*/ 
