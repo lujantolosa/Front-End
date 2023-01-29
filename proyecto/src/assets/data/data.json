@@ -1,0 +1,73 @@
+{ 
+   "encabezado":{
+   "inicio":"#inicio",
+   "contacto":"mailto:brisalujant@gmail.com",
+   "instagram": "Instagram",
+   "Twitter": "Twitter",
+   "imgbarra": "/assets/cverde.jpg",
+   "imglogo": "/assets/logoAP.jpg",
+   "imgbann": "/assets/back.jpg"
+  },
+
+  "descripcion":{
+    "imgpf": "/assets/fotoportfolio.jpg",
+    "name": "Tolosa Luján",
+    "position": "Estudiante en Argentina Programa",
+    "ubicacion":" provincia de Buenos Aires, Argentina"
+ },
+
+  "estudios":
+  [ {
+     "img": "/assets/UBA.png",
+     "duracion":"2021-hasta la fecha",
+     "carrera": "Tecnicatura universitaria en Hemoterapia e Inmunohematología",
+     "instituto":"Universidad de Buenos Aires (UBA)"
+   },
+    {
+     "img": "/assets/ISM.png",
+     "duracion":"2015-2020",
+     "carrera": "Educación secundaria completa con Bachiller en Ciencias Sociales",
+     "instituto":"Instituto San Mauricio"
+   },
+   {
+     "img": "/assets/ISM.png",
+     "duracion":"2009-2014",
+     "carrera": "Educación primaria",
+     "instituto":"Instituto San Mauricio"
+   }
+  ],
+
+  "cursos":
+  [{
+     "imgs": "/assets/INTI.png",
+     "tiempo":"2022",
+     "curso": "SeProgramar",
+     "institucion":"Instituto Nacional de Tecnología Industrial (INTI)"
+   },
+   {
+     "imgs": "/assets/UBA.png",
+     "tiempo":"2022",
+     "curso": "Reanimación cardiopulmonar (RCP)",
+     "institucion":"Universidad de Buenos Aires (UBA)"
+   },
+   {
+     "imgs": "/assets/cisco.png",
+     "tiempo":"2020",
+     "curso": "Introducción a la Ciberseguridad",
+     "institucion":"Cisco Networking Academy"
+   },
+   {
+     "imgs": "/assets/CLF.jpg",
+     "tiempo":"2020",
+     "curso": "Instalación y soporte de sistemas informáticos",
+     "institucion":"Centro de formación N°407, Luz y Fuerza"
+   },
+   {
+     "imgs": "/assets/CLF.jpg",
+     "tiempo":"2019",
+     "curso": "Portugués",
+     "institucion":"Centro de formación N°407, Luz y Fuerza"
+   }
+ ]
+
+}

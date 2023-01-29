@@ -1,11 +1,9 @@
    <div>
-     <img class="perfil" src="./assets/cverde.jpg" width="1250" height="75"/> 
-      <!--<img src="C:/Luján/proyecto/src/assets/cverde.jpg">-->
+     <img class="perfil" [src]="encabezado.imgbarra" width="1250" height="75" /> 
     </div> <br>
     <div>
-      <img class="argp" src="./assets/logoAP.png"width="170" height="50"/>
+     <img class="argp" [src]="encabezado.imglogo" width="170" height="50" /> 
     </div>
-    <!--Barra-->
     <nav class="barra"> 
       <a href="#inicio">Inicio</a>
       <a href="mailto:brisalujant@gmail.com"> Contacto </a>
@@ -13,5 +11,5 @@
       <a>Twitter</a>
     </nav>
     <div>
-     <img class="bann" src="./assets/backg.jpg" width="1250" height="550">
-    </div>  <br>
+     <img [src]="encabezado.imgbann" width="1250" height="550" /> 
+    </div> <br>

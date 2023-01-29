@@ -1,46 +1,70 @@
+<div>
+  <h1 class="contenedortit"><u>Estudios</u></h1> <br>
+  <ul>
+    <li *ngFor="let estudios of estudiosList">
+      <div class="contenedor">
+       <img [src]="estudios.img" width="54" height="52"/>
+         <h2 class="subt">{{estudios.duracion}}</h2>
+         <p>{{estudios.carrera}}</p>
+         <p>{{estudios.instituto}}</p>
+       <br>
+       <br>
+      </div>
+    </li>
+  </ul>
+</div>
 
-<div class="contenedor">
-<h1 class="tit"><u>Educación</u></h1>
-     <img src="./assets/UBA.png" width="62" height="60"/>
-       <h2 class="subt"> 2021-hasta la fecha </h2>
-       <p>Tecnicatura universitaria en Hemoterapia e Inmunohematología</p>
-       <p>Universidad de Buenos Aires (UBA)</p>
-     <br>
-     <img src="./assets/ISM.png" width="56" height="52" />
-       <h2 class="subt"> 2015-2020 </h2>
-       <p>Educación secundaria completa con Bachiller en Ciencias Sociales</p>
-       <p>Instituto San Mauricio</p>
-      <br>
-      <img src="./assets/ISM.png" width="56" height="52" />
-        <h2 class="subt"> 2009-2014 </h2>
-       <p>Educación srimaria</p>
-       <p>Instituto San Mauricio</p>
-      <br> <!--cursos-->
-      <h1 class="tit2"><u>Cursos</u></h1>
-      <img src="./assets/INTI.png" width="72" height="70" />
-        <h2 class="subt"> 2022 </h2>
-        <p> SeProgramar</p>
-        <p>Instituto Nacional de Tecnología Industrial (INTI)</p>
-      <br>
-      <img src="./assets/UBA.png" width="62" height="60" />
-       <h2 class="subt"> 2022 </h2>
-       <p> Reanimación cardiopulmonar (RCP)</p>
-       <p> Universidad de Buenos Aires (UBA)</p>
-      <br>
-      <img src="./assets/cisco.png" width="60" height="60"/>
-       <h2 class="subt"> 2020 </h2>
-       <p> Introducción a la Ciberseguridad</p>
-       <p> Cisco Networking Academy</p>
-      <br>
-      <img src="./assets/CLF.jpg" width="98" height="60"/>
-       <h2 class="subt"> 2020 </h2>
-       <p> Instalación y soporte de sistemas informáticos </p>
-       <p> Centro de formación N°407, Luz y Fuerza </p>
-      <br>
-      <img src="./assets/CLF.jpg" width="98" height="60"/>
-       <h2 class="subt"> 2019 </h2>
-       <p> Portugués </p>
-       <p> Centro de formación N°407, Luz y Fuerza </p>
-      <br>
-  </div>
-  <br> <br> <br>
+<div>
+  <h1 class="tit2"><u>Cursos</u></h1> <br>
+  <ul>
+    <li *ngFor="let cursos of cursosList">
+      <div class="contenedor">
+        <img [src]="cursos.imgs" width="55" height="52" />
+         <h2 class="subt">{{cursos.tiempo}}</h2>
+         <p>{{cursos.curso}}</p>
+         <p>{{cursos.institucion}}</p>
+        <br> <br>
+      </div>
+    </li>
+  </ul>
+  <h1 class="contenedorbaj"></h1> 
+</div>
+<br> <br> <br>
+
+       <!--
+       <img src="./assets/ISM.png" width="56" height="52" />
+         <h2 class="subt"> 2015-2020 </h2>
+         <p>Educación secundaria completa con Bachiller en Ciencias Sociales</p>
+         <p>Instituto San Mauricio</p>
+        <br>
+        <img src="./assets/ISM.png" width="56" height="52" />
+         <h2 class="subt"> 2009-2014 </h2>
+         <p>Educación srimaria</p>
+         <p>Instituto San Mauricio</p>
+        <br> 
+        <h1 class="tit2"><u>Cursos</u></h1>
+        <img src="./assets/INTI.png" width="72" height="70" />
+         <h2 class="subt"> 2022 </h2>
+         <p> SeProgramar</p>
+         <p>Instituto Nacional de Tecnología Industrial (INTI)</p>
+        <br>
+        <img src="./assets/UBA.png" width="62" height="60" />
+         <h2 class="subt"> 2022 </h2>
+         <p> Reanimación cardiopulmonar (RCP)</p>
+         <p> Universidad de Buenos Aires (UBA)</p>
+        <br>
+        <img src="./assets/cisco.png" width="60" height="60"/>
+         <h2 class="subt"> 2020 </h2>
+         <p> Introducción a la Ciberseguridad</p>
+         <p> Cisco Networking Academy</p>
+        <br>
+        <img src="./assets/CLF.jpg" width="98" height="60"/>
+         <h2 class="subt"> 2020 </h2>
+         <p> Instalación y soporte de sistemas informáticos </p>
+         <p> Centro de formación N°407, Luz y Fuerza </p>
+        <br>
+        <img src="./assets/CLF.jpg" width="98" height="60"/>
+         <h2 class="subt"> 2019 </h2>
+         <p> Portugués </p>
+         <p> Centro de formación N°407, Luz y Fuerza </p> -->
+    
