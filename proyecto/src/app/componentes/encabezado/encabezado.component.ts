@@ -8,13 +8,13 @@ import { PortfolioService } from 'app/servicios/portfolio.service';
 })
 
 export class EncabezadoComponent {
-  encabezado:any;
+  miPortfolio:any;
   constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
-    this.datosPortfolio.obtenerDatos().subscribe(data => {
+    this.datosPortfolio.obtenerDatos().subscribe(data =>{
       console.log(data);
-      this.encabezado=data.encabezado;
+      this.miPortfolio=data;
     });
   }
 }

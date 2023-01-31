@@ -1,13 +1,11 @@
 { 
-   "encabezado":{
    "inicio":"#inicio",
    "contacto":"mailto:brisalujant@gmail.com",
    "instagram": "Instagram",
    "Twitter": "Twitter",
    "imgbarra": "/assets/cverde.jpg",
-   "imglogo": "/assets/logoAP.jpg",
-   "imgbann": "/assets/back.jpg"
-  },
+   "imglogo": "/assets/logoAP.png",
+   "imgbann": "/assets/backg.jpg",
 
   "descripcion":{
     "imgpf": "/assets/fotoportfolio.jpg",
